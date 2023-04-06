@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="mycss.css">
+        <link rel="stylesheet" href="dark.css" >
+        <link rel="stylesheet" href="light.css" id="theme">
+        <link rel="icon" type="image/x-icon" href="calculator.png"
+    </head>
+    <body>
+    <center>
+        <table class="tb1">
+        <div >
+            <tr>
+                <th colspan="2" class="operator_button2" id="op1"><button id="ob1">CALCULATOR</button></th>
+                <th>
+                    <a href="https://github.com/BARATHBALAJIVS07/Projects.git"><img src="git2.png" height="50px" width="50px"></a>
+                </th>
+                <th class="operator_button2">
+                    <button onclick="theme_change()">
+                        <img src="moon_icon.png" alt="image not available" height="50px" width="50px" id="themeicon">
+                    </button>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2" class="operator_button1"><input type="text" id="result" placeholder="Result        "  readonly width="50px" height="30px" style="font-size: 20px;"></th>
+                <th class="operator_button1" id="ibt1"><button onclick="empty()" class="bt1" >AC</button></th>
+                <th class="operator_button1" id="ibt1"><button onclick="last_element_delete()" class="bt1" >C</button></th>
+            </tr>
+        </div>
+        </table>
+        
+        <table class="tb2">
+            <tr>
+                <td class="tbb1"><button onclick="screen(1)" class="bt1">1</button></td>
+                <td class="tbb1"><button onclick="screen(2)" class="bt1">2</button></td>
+                <td class="tbb1"><button onclick="screen(3)" class="bt1">3</button></td>
+                <td class="tbb1"><button onclick="screen('+')" class="bt2">+</button></td>
+            </tr>
+            <tr>
+                <td class="tbb1"><button onclick="screen(4)" class="bt1">4</button></td>
+                <td class="tbb1"><button onclick="screen(5)" class="bt1">5</button></td>
+                <td class="tbb1"><button onclick="screen(6)" class="bt1">6</button></td>
+                <td class="tbb1"><button onclick="screen('-')" class="bt2">-</button></td>
+            </tr>
+            <tr>
+                <td class="tbb1"><button onclick="screen(7)" class="bt1">7</button></td>
+                <td class="tbb1"><button onclick="screen(8)" class="bt1">8</button></td>
+                <td class="tbb1"><button onclick="screen(9)" class="bt1">9</button></td>
+                <td class="tbb1"><button onclick="screen('*')" class="bt2">x</button></td>
+            </tr>
+            <tr>
+                <td class="tbb1"><button onclick="screen('/')" class="bt2">/</button></td>
+                <td class="tbb1"><button onclick="screen(0)" class="bt1">0</button></td>
+                <td class="tbb1"><button onclick="screen('.')" class="bt2">.</button></td>
+                <td class="tbb1"><button onclick="screen('=')" class="bt2">=</button></td>
+            </tr>
+        </table>
+    </center>
+        <script src="myscript.js"></script>
+    </body>
+</html>

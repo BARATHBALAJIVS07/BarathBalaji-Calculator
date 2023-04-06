@@ -1,0 +1,28 @@
+body{
+    background-color:#2e2929;
+}
+.operator_button2{
+    background-color:#2e2929;
+}
+th,td{
+    border:1px #2e2929;
+    border-radius: 50px;
+    width:60px;
+    height:70px;
+}
+#ob1{
+    color:aliceblue;
+}
+#ibt1{
+    background-color: rgb(215, 96, 96);
+}
+#ibt1:hover{
+    background-color: red;
+}
+.tbb1:hover{
+    background-color:rgb(126, 123, 123);
+}
+
+.bt1:hover,.bt2:hover{
+    color:white;
+}

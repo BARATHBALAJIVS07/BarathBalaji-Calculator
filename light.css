@@ -1,0 +1,31 @@
+body{
+    background-color:aquamarine;
+}
+.operator_button2
+{
+    background-color:aquamarine;
+}
+th,td{
+    border:1px solid aquamarine;
+    border-radius: 50px;
+    width:60px;
+    height:70px;
+}
+#ob1{
+    color:rgb(39, 39, 71);
+}
+#ibt1{
+    background-color: rgb(215, 96, 96);
+}
+#ibt1:hover{
+    background-color: red;
+}
+.tbb1:hover{
+    background-color:rgb(137, 185, 187);
+}
+
+
+.bt1:hover,.bt2:hover{
+    color:white;
+
+}
